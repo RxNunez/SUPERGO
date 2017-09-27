@@ -1,0 +1,26 @@
+{ "projects": [{
+    "title": "Project1",
+    "creator": "someGuy",
+    "cause": "hungry",
+    "amount": "5",
+    "action": "getFood",
+    "swag": "reward",
+    "id": "1"
+    }, {
+    "title": "Project2",
+    "creator": "someGuy",
+    "cause": "hungry",
+    "amount": "5",
+    "action": "getFood",
+    "swag": "reward",
+    "id": "2"
+    }, {
+    "title": "Project3",
+    "creator": "someGuy",
+    "cause": "hungry",
+    "amount": "5",
+    "action": "getFood",
+    "swag": "reward",
+    "id": "3"
+  }]
+}

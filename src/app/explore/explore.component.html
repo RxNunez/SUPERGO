@@ -1,0 +1,17 @@
+<h2>Explore</h2>
+
+<div *ngFor="let project of projects | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(project)"><em>{{project.title}}</em> by {{project.creator}}</h3>
+    <div *ngIf="currentRoute === '/admin'">
+     {{project.title}}<br>
+     {{project.creator}}<br>
+     {{project.cause}}<br>
+     {{project.amount}}<br>
+     {{project.action}}<br>
+     {{project.swag}}<br>
+     <hr>
+     <app-edit-project [selectedProject]="project"></app-edit-project>
+   </div>
+  </div>
+</div>
